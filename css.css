@@ -1,0 +1,131 @@
+.wrapper{
+	/* background-color: rgb(255, 255, 255);	
+	padding: 50px, 46px, 60px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1700px; */
+	display: flex;
+  	flex-direction: column;
+  	height: 100%;
+	}
+
+.logo{
+    margin-bottom: auto;
+}
+
+
+.logo form{
+	border-right: 20px;
+	border-left: 20px;
+	border-right: 20px;
+	margin-right: 20px;
+	width: 200;
+	height: 200;
+	text-align: right;
+}
+
+.header-nav{
+	background-color: black;
+}
+
+.header-menu a{
+	color: #fff;
+	font-size: 25px;
+}
+
+.header-menu li{
+	display: inline-block;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	transition: 1s all;
+
+}
+
+.header-menu li a{
+	display: block;
+	padding: 15px 25px;
+	text-decoration: none;
+}
+
+.header-menu li:hover{
+	background: gold;
+    border-left: 1px white;
+	border-right: 1px white;
+
+}
+
+.content{
+	/* margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding-left: 20px;
+	margin-right: auto;
+	padding-top: 20px; */
+	flex: 1 0 auto;
+
+}
+
+
+.logo img{
+	border-radius: 20px;
+}
+
+.col1{
+	
+	border: 4px double gainsboro;
+	padding: 25px;
+	border-radius: 30px 10px;
+	background-color: rgb(62, 167, 84);
+	color: rgb(255, 255, 255);
+	   }
+
+.col2{
+	
+	border: 4px double gainsboro;
+	padding: 25px;
+	border-radius: 30px 10px;
+	background-color: rgb(119, 60, 131);
+	color: rgb(255, 255, 255);
+	   }
+
+.col3{
+	
+	border: 4px double gainsboro;
+	padding: 25px;
+	border-radius: 30px 10px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	   }
+.cute{
+	   border-style: solid;
+	   border-bottom-color: coral;
+	   border-bottom-left-radius: 50px 20px;
+	   border-bottom-right-radius: 50px 20px;
+	   border-top-right-radius: 50px 20px;
+		border-top-left-radius: 50px 20px;
+	   
+
+   }
+
+.img{
+	border-right: 20px;
+	border-left: 20px;
+	border-right: 20px;
+	margin-right: 20px;
+
+}
+
+.back{
+	background-color: #463d3d;
+}
+
+.footer {
+	flex: 0 0 auto;
+  }
+
+
+  .header-menu a.active{
+	background-color: rgb(251, 255, 0);
+	color: rgb(3, 3, 3);
+}
+
